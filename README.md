@@ -30,6 +30,7 @@ This repository contains a **MERN (MongoDB, Express.js, React.js, Node.js)** sta
 ## 📂 File Structure
 
 ### Backend (Server)
+```
 server/
 ├── config/               # Configuration files (e.g., database connection)
 ├── controllers/          # Logic for handling requests
@@ -46,9 +47,12 @@ server/
 ├── .env                  # Environment variables
 ├── server.js             # Entry point of the backend
 
+```
+
 
 ### Frontend (Client)
 
+```
 client/src/
 ├── components/           # Reusable UI components
 │   ├── Description.jsx
@@ -70,6 +74,8 @@ client/src/
 ├── App.jsx               # Main React component
 ├── index.css             # Global styles
 ├── main.jsx              # Entry point of the frontend
+
+```
 
 
 📸 Demo
