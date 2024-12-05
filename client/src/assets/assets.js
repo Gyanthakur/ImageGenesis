@@ -12,9 +12,9 @@ import rating_star from './rating_star.svg'
 import sample_img_1 from './sample_img_1.png'
 import sample_img_2 from './sample_img_2.png'
 import profile_img_1 from './profile_img_1.png'
-import abhishek from './abhishek.jpg'
-import shreyansh from './shreyansh.jpg'
-import gyan from './gyan.png'
+// import abhishek from './abhishek.jpg'
+// import shreyansh from './shreyansh.jpg'
+// import gyan from './gyan.png'
 // import gyan from './gyan.png'
 import profile_img_2 from './profile_img_2.png'
 import step_icon_1 from './step_icon_1.svg'
@@ -47,9 +47,9 @@ export const assets = {
     star_group,
     credit_star,
     profile_icon,
-    abhishek,
-    shreyansh,
-    gyan
+    // abhishek,
+    // shreyansh,
+    // gyan
 }
 
 export const stepsData = [
@@ -72,21 +72,21 @@ export const stepsData = [
 
 export const testimonialsData = [
     {
-        image:shreyansh,
+        image:profile_img_1,
         name:'Shreyansh Dubey',
         role:'Graphic Designer',
         stars:5,
         text:`This tool is a game-changer for prompt-based image generation—quick, intuitive, and consistently accurate. Highly recommend for professionals and hobbyists alike!`
     },
     {
-        image:gyan,
+        image:profile_img_2,
         name:'Gyan Singh',
         role:'Web Developer',
         stars:5,
         text:`Image Genesis is incredibly user-friendly and delivers stunning image quality. It has streamlined my creative workflow and made generating visuals effortless!`
     },
     {
-        image:abhishek,
+        image:profile_img_1,
         name:'Abhishek Sherma',
         role:'Content Creater',
         stars:4,
