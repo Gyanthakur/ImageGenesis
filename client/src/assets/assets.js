@@ -12,6 +12,9 @@ import rating_star from './rating_star.svg'
 import sample_img_1 from './sample_img_1.png'
 import sample_img_2 from './sample_img_2.png'
 import profile_img_1 from './profile_img_1.png'
+import abhishek from './abhishek.jpg'
+import shreyansh from './shreyansh.jpg'
+import gyan from './gyan.png'
 import profile_img_2 from './profile_img_2.png'
 import step_icon_1 from './step_icon_1.svg'
 import step_icon_2 from './step_icon_2.svg'
@@ -65,25 +68,25 @@ export const stepsData = [
 
 export const testimonialsData = [
     {
-        image:profile_img_1,
-        name:'Donald Jackman',
+        image:shreyansh,
+        name:'Shreyansh Dubey',
         role:'Graphic Designer',
         stars:5,
-        text:`I've been using bg.removal for nearly two years, primarily for Instagram, and it has been incredibly user-friendly, making my work much easier.`
+        text:`This tool is a game-changer for prompt-based image generation—quick, intuitive, and consistently accurate. Highly recommend for professionals and hobbyists alike!`
     },
     {
-        image:profile_img_2,
-        name:'Richard Nelson',
-        role:'Content Creator',
-        stars:4,
-        text:`I've been using bg.removal for nearly two years, primarily for Instagram, and it has been incredibly user-friendly, making my work much easier.`
-    },
-    {
-        image:profile_img_1,
-        name:'Donald Jackman',
-        role:' Graphic Designer',
+        image:gyan,
+        name:'Gyan Singh',
+        role:'Web Developer',
         stars:5,
-        text:`I've been using bg.removal for nearly two years, primarily for Instagram, and it has been incredibly user-friendly, making my work much easier.`
+        text:`Image Genesis is incredibly user-friendly and delivers stunning image quality. It has streamlined my creative workflow and made generating visuals effortless!`
+    },
+    {
+        image:abhishek,
+        name:'Abhishek Sherma',
+        role:'Content Creater',
+        stars:4,
+        text:`Image Genesis saves time while producing high-quality images with ease. A must-have tool for anyone needing reliable and efficient image generation!`
     },
 ]
 
